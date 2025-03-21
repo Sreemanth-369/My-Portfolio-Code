@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e6f7ff;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+h1 {
+    color: #0055a5;
+    text-align: center;
+}
+h2 {
+    color: #0073e6;
+}
+h3 {
+    color: #004d80;
+}
+p {
+    line-height: 1.6;
+    color: #333;
+}
+ul li {
+    color: #0055a5;
+}
+.linkedin-link {
+    margin-top: 10px;
+}
+.linkedin-link button {
+    background-color: #0073e6;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.linkedin-link button:hover {
+    background-color: #0055a5;
+}

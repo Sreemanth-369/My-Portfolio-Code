@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sreemanth Chaganti - Portfolio</title>
+</head>
+
+<body>
+
+    <h1> Sreemanth Chaganti </h1>
+
+    <!-- Navigation Buttons -->
+    <button onclick="location.href='#about'">About</button>
+    <button onclick="location.href='#skills'">Skills</button>
+    <button onclick="location.href='#projects'">Projects</button>
+    <button onclick="location.href='#contact'">Contact</button>
+
+    <!-- About Section -->
+    <section id="about">
+        <p>Sreemanth is pursuing a Master’s in Business Analytics at Wichita State University. Driven by a passion for transforming data into actionable insights. With a strong analytical mindset and a keen understanding of market dynamics, he aspires to be a Business Analyst who bridges the gap between stakeholders and technical teams, ensuring data-driven decision-making within organizations.</p>
+        <p>As a member of the <strong>TIE team at the Innovation Campus</strong>, Sreemanth is excited about leveraging artificial intelligence and data mining to enhance user experiences, particularly in developing interactive systems within the university. He thrives on identifying market needs, analyzing trends, and crafting compelling visual narratives that communicate complex insights to stakeholders.</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h1>My Skills</h1>
+        <ol>
+            <li>MS Office</li>
+            <li>Python</li>
+            <li>Tableau</li>
+            <li>Machine Learning</li>
+            <li>Power BI</li>
+        </ol>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h1>Contact Me</h1>
+        <p>Feel free to get in touch with me using the form below:</p>
+        
+        <form action="#" method="post">
+            <!-- Name Input -->
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br><br>
+
+            <!-- Email Input -->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br><br>
+
+            <!-- Gender Selection -->
+            <b>Choose your gender:</b><br>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label>
+            <br><br>
+
+            <!-- Bio Input -->
+            <label for="bio">Bio (up to 200 characters):</label><br>
+            <textarea id="bio" name="bio" rows="4" cols="50" maxlength="200"></textarea>
+            <br><br>
+
+            <!-- Submit Button -->
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+</body>
+</html>
